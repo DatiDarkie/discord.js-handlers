@@ -1,0 +1,24 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "JOSEPH",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
